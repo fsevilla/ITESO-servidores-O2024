@@ -23,6 +23,8 @@ router.get('/callback',
     }),
     (req, res) => {
       res.redirect('/'); // Enviar a home
+    // build jwt token
+    // res.send({token})
     }
 );
 
